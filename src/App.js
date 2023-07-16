@@ -44,7 +44,7 @@ const App = (props) => {
         <SearchForm />
         <Nav />
         <Routes>
-          <Route path="/" element={<PhotoContainer getPhotos={performSearch} photos={photos} loading={loading} />} />
+          <Route path="/https://khash90.github.io/react-gallery/" element={<PhotoContainer getPhotos={performSearch} photos={photos} loading={loading} />} />
           <Route path="batman" element={<PhotoContainer defaultTopic={"batman"} getPhotos={performSearch} photos={photos} loading={loading} />} />
           <Route path="catwoman" element={<PhotoContainer defaultTopic={"catwoman"} getPhotos={performSearch} photos={photos} loading={loading} />} />
           <Route path="venom" element={<PhotoContainer defaultTopic={"venom"} getPhotos={performSearch} photos={photos} loading={loading} />} />
